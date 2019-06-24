@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Detect Indentation",
+          "submenu": [
+            {
+              "label": "Show Selector",
+              "command": "detect-indentation:show-selector"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

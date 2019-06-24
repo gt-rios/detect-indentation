@@ -1,0 +1,21 @@
+{
+  "name": "detect-indentation",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "A fast and minimal detect indentation package",
+  "repository": "https://github.com/gt-rios/detect-indentation",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.7.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
