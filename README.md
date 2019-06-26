@@ -14,11 +14,10 @@ apm install detect-indentation
 
 ## Features
 
-- Fast and minimal by design. This package only attempts to detect indentation when an editor is opened
-- Displays the indentation for the active editor in the Status Bar
-- Easily change the indentation for the active editor with the _indentation selector_ by:  
-clicking the indentation in the Status Bar, __or__ selecting __Packages > Detect Indentation > Show Selector__ on the Menu Bar, __or__ running the `Detect Indentation: Show Selector` command in the Command Palette
-- Detect indentation again after the active editor is modified, by selecting `Auto Detect` from the indentation selector. This would be useful for example, after converting Tabs to Spaces with the default [whitespace](https://atom.io/packages/whitespace) package
+- Fast and minimal by design: this package only attempts to detect the indentation for the active editor once, when it is opened.
+- Easily change the indentation for the active editor at any time with the _indentation selector_ by:  
+clicking the indentation button in the Status Bar, __or__ selecting __Packages > Detect Indentation > Show Selector__ in the Menu Bar, __or__ running the `Detect Indentation: Show Selector` command in the Command Palette.
+- Displays the indentation for the active editor in the Status Bar.
 
 ## Keymap
 
